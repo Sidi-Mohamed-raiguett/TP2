@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="100dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="371dp"
+        android:layout_height="45dp"
+        android:text="Saisie Votre Donner"
+        android:gravity="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large">
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/nameEdit"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:hint="Votre Nom"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/ageEdit"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:paddingTop="10dp"
+        android:hint="Votre Age"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/tailleEdit"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Votre Taille"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large">
+
+    </EditText>
+
+    <Button
+        android:id="@+id/mentionBtn"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:text="Mention"
+        android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"></Button>
+</LinearLayout>

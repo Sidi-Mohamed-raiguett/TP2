@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Demo</string>
+    <string name="incr_menter">Incrémenter</string>
+    <string name="d_cr_menter">Décrémenter</string>
+    <string name="r_initialiser">Réinitialiser</string>
+    <string name="compteur">Compteur!</string>
+</resources>

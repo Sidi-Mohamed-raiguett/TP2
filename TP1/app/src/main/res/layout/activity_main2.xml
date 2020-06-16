@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="100dp"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/bnj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bonjour"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"></TextView>
+
+    <TextView
+        android:id="@+id/nameText"
+        android:layout_width="269dp"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/bnj"
+        android:layout_marginRight="-279dp"
+        android:text="1"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FF5722"></TextView>
+
+    <TextView
+        android:id="@+id/ve"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nameText"
+        android:text=", vous êtes âgé de "
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"></TextView>
+
+    <TextView
+        android:id="@+id/ageText"
+        android:layout_width="49dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nameText"
+        android:layout_alignRight="@id/ve"
+        android:layout_marginRight="-50dp"
+        android:text="2"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#F44336"></TextView>
+
+    <TextView
+        android:id="@+id/vtaille"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ageText"
+        android:text="et vous êtes de taille "
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"></TextView>
+
+    <TextView
+        android:id="@+id/tailleText"
+        android:layout_width="48dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ageText"
+        android:layout_alignRight="@id/vtaille"
+        android:layout_marginTop="-1dp"
+        android:layout_marginRight="-46dp"
+        android:text="3"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#F44336"></TextView>
+
+    <TextView
+        android:id="@+id/mention"
+        android:layout_width="93dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ageText"
+        android:layout_alignRight="@id/tailleText"
+        android:layout_marginTop="1dp"
+        android:layout_marginRight="-93dp"
+        android:text="4"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#4CAF50"></TextView>
+
+    <TextView
+        android:id="@+id/guime"
+        android:layout_width="35dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ageText"
+        android:layout_alignRight="@id/mention"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="-46dp"
+        android:text="@string/paranthese"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"></TextView>
+
+    <Button
+        android:id="@+id/backBtn"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/guime"
+        android:layout_marginTop="107dp"
+        android:layout_marginLeft="100dp"
+        android:drawableBottom="@color/colorPrimary"
+        android:text="Retour"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"></Button>
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TP1</string>
+    <string name="bonjour"><![CDATA[<< Bonjour]]></string>
+    <string name="paranthese"><![CDATA[>>]]></string>
+    <string name="env_trai2">Traitement réussi, données reçues.</string>
+    <string name="env_trai">Données envoyées pour traitement .....</string>
+</resources>

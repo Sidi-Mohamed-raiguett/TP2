@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">First Game</string>
+    <string name="text3">0</string>
+    <string name="editTextNumero">make in number</string>
+    <string name="ok">OK</string>
+    <string name="textView5">0</string>
+    <string name="valeur_sup">The value is Greater</string>
+    <string name="valeur_inf">The value is Smaller</string>
+    <string name="bravo">Congrats</string>
+    <string name="rejouer">Replay ?</string>
+    <string name="oui">YES</string>
+    <string name="quitter">EXIT</string>
+    <string name="devinez">deviny</string>
+    <string name="score">Score:</string>
+</resources>

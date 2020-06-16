@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/intentExampne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IntentExample"
+        android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"></Button>
+
+    <TextView
+        android:id="@+id/compteur"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/compteur"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#00E"
+        android:textSize="50dp" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <Button
+            android:id="@+id/increment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/incr_menter"
+            android:textAllCaps="false"
+            ></Button>
+
+        <Button
+            android:id="@+id/decrement"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/d_cr_menter"
+            android:textAllCaps="false"
+            ></Button>
+
+        <Button
+            android:id="@+id/reset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/r_initialiser"
+            android:textAllCaps="false"
+            ></Button>
+    </LinearLayout>
+
+
+</LinearLayout>
